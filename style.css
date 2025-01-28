@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FFFF;   
+}
+
+header {
+    background-color: black;
+    color: aliceblue;
+    font-family: var(--fonte2);
+    padding: 3rem;
+    text-align: center;
+    
+}
+ 
+header h1 {
+    font-size: 8vw;
+}
+
+header p {
+    font-size: 16px;
+    font-family: var(--fonte1);
+}
+
+header a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: aliceblue;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+section {
+    font-family: var(--fonte3);
+    padding: 50px;
+}
+
+section p {
+    width:50vw;
+    font-size:3vw;
+} 
+
+.imagem-flor {
+    background-image: url('utilitarios/background001.jpg');
+    background-position: center center;
+}
+
+#texto-flor {
+    background-color: rgba(0, 0, 0, 0.301);
+    color: aliceblue;
+    width: 35vw;
+    padding: 5px;
+}
+
+.imagem-livro {
+    background-image: url('utilitarios/background002.jpg');
+}
+
+#texto-livro {
+    background-color: rgba(0, 0, 0, 0.301);
+    color: aliceblue;
+    width: 35vw;
+    padding: 5px;
+}
+
+footer {
+    background-color: black;
+    color: aliceblue;
+    height: 100%;
+    font-family: var(--fonte1);
+}
+
+footer p {
+    text-align: center;
+    padding: 5px;
+}
+
+footer a {
+    color: aliceblue;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
